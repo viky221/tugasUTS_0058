@@ -12,7 +12,38 @@
     
 
 
-  
+	$haria = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[0]->{"date"}->{"weekday"};
+	$harib = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"date"}->{"weekday"};
+	$haric = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[2]->{"date"}->{"weekday"};
+	$harid = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[3]->{"date"}->{"weekday"};
+	$harie = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[4]->{"date"}->{"weekday"};
+	$harif = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[5]->{"date"}->{"weekday"};
+	$harig = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[6]->{"date"}->{"weekday"};
+	
+	$tgla = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[0]->{"date"}->{"day"};
+	$tglb = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"date"}->{"day"};
+	$tglc = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[2]->{"date"}->{"day"};
+	$tgld = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[3]->{"date"}->{"day"};
+	$tgle = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[4]->{"date"}->{"day"};
+	$tglf = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[5]->{"date"}->{"day"};
+	$tglg = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[6]->{"date"}->{"day"};
+	
+	$blna = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[0]->{"date"}->{"monthname"};
+	$blnb = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"date"}->{"monthname"};
+	$blnc = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[2]->{"date"}->{"monthname"};
+	$blnd = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[3]->{"date"}->{"monthname"};
+	$blne = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[4]->{"date"}->{"monthname"};
+	$blnf = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[5]->{"date"}->{"monthname"};
+	$blng = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[6]->{"date"}->{"monthname"};
+	
+	$thna = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[0]->{"date"}->{"year"};
+	$thnb = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"date"}->{"year"};
+	$thnc = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[2]->{"date"}->{"year"};
+	$thnd = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[3]->{"date"}->{"year"};
+	$thne = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[4]->{"date"}->{"year"};
+	$thnf = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[5]->{"date"}->{"year"};
+	$thng = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[6]->{"date"}->{"year"};
+	
     $cndtn1 = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[0]->{"conditions"};
 	$cndtn2 = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"conditions"};
 	$cndtn3 = $json_b->{"forecast"}->{"simpleforecast"}->forecastday[2]->{"conditions"};

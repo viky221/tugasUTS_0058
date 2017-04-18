@@ -40,14 +40,24 @@ echo "<h1> </h1>";
 echo "<hr>";
 echo "<table width = 980 border =1  >
 <tr>
-<td align=center>Information</td>
-<td align=center>  Day 1   </td>
-<td align=center>  Day 2   </td>
-<td align=center>  Day 3   </td>
-<td align=center>  Day 4   </td>
-<td align=center>  Day 5   </td>
-<td align=center>  Day 6   </td>
-<td align=center>  Day 7   </td>
+<td align=center>Day</td>
+<td align=center>  $haria   </td>
+<td align=center>  $harib   </td>
+<td align=center>  $haric  </td>
+<td align=center>  $harid  </td>
+<td align=center>  $harie  </td>
+<td align=center>  $harif </td>
+<td align=center>  $harig  </td>
+</tr>
+<tr>
+<td align=center> Date </td>
+<td align=center> $tgla, $blna $thna </td>
+<td align=center> $tglb, $blnb $thnb </td>
+<td align=center> $tglc, $blnc $thnc </td>
+<td align=center> $tgld, $blnd $thnd </td>
+<td align=center> $tgle, $blne $thne </td>
+<td align=center> $tglf, $blnf $thnf </td>
+<td align=center> $tglg, $blng $thng </td>
 </tr>
 <tr>
 <td align=center>Condition</td>
