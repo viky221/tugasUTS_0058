@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
-	
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -35,10 +35,11 @@
 <?php
     require 'cuaca1.php';
 ?>
+<div align=center>
 <?php
 echo "<h1> </h1>";
 echo "<hr>";
-echo "<table width = 980 border =1  >
+echo "<table width = 900 border =1  >
 <tr>
 <td align=center>Day</td>
 <td align=center>  $haria   </td>
@@ -104,6 +105,7 @@ echo "<table width = 980 border =1  >
 <tr>
 </table>";
 ?>
+</div>
 	</div> <!-- END Wrapper -->
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
